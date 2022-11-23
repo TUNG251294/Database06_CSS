@@ -1,0 +1,34 @@
+ul.a{
+    list-style-image: url("https://james.codegym.vn/pluginfile.php/1/theme_remui/logomini/1637071366/icon-small.png");
+    background: #4CAF50;
+}
+ul,ol{
+    width: 200px;
+}
+li{
+    background: #d14836;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+}
+ul.b{
+    list-style-type: square;
+    background: #32a4e7;
+    padding: 0px;
+    margin-left: 40px;
+}
+ol.c{
+    background: #3989ff;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+ol.d{
+    background: #a8a5a5;
+    list-style-type: upper-alpha;
+}
+ul.e{
+    background: darkcyan;
+    list-style: circle inside url("http://rem.png");
+}
+/*nếu một danh sách đánh dâu bằng hình ảnh được chỉ định, giá trị của thuộc tính list-style-type
+sẽ được hiển thị nếu hình ảnh vì một số lý do nào đó không thể hiển thị*/

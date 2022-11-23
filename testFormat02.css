@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    padding: 0px;
+}
+body{
+    width: 60%;
+}
+h1{
+    text-indent: 0.175em;
+    margin: 0em;
+}
+p.firstline{
+    text-indent: 0.5em;
+    margin: 0em;
+}
+p{
+    font-family: Cambria,serif;
+    line-height: 100%;
+    text-indent: 60px;
+    text-align: justify; /*văn bản đươc dàn đều trong hang*/
+    margin: 0.5em;
+}
+label{
+    color: blue;
+}
+label.bold{
+    color: black;
+    font-weight: bold;
+}
+/*moi the p,h1... deu co 1 margin block mac dinh, de thu hep khoang cach cac hang thi phai giam gia tri margin*/

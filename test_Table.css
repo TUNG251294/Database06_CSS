@@ -1,0 +1,30 @@
+table{
+    border-collapse: inherit;
+    width: 20%;
+}
+#table1{
+    border-collapse: collapse;
+}
+#table2{
+    border-color: #3989ff;
+    font-family: Arial;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th{
+    background-color: #fff016;
+    height: 50px;
+    text-align: center;
+}
+td{
+    /*background-color: #4CAF50;*/
+    height: 25px;
+    vertical-align: bottom;
+    padding: 5px;
+}
+/*Để điều khiển khoảng cách giữa đường viền và nội dung trong bảng*/
+/*, sử dụng thuộc tính padding cho các phần tử <td> và <th>*/
+tr:nth-child(even){
+    background-color: #a8a5a5;
+}

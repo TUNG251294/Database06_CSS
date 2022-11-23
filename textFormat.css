@@ -1,0 +1,45 @@
+#title01{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+body{
+    color: #d14836;
+    width: 40%;
+}
+div{
+    border: 1px solid black;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    text-align: justify;
+    color: #9933cc;
+    line-height: 80%;
+}
+#biglineheight{
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+}
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+p.capitalize{
+    text-transform: capitalize;
+}
+p{
+    text-indent: 40px;
+}
+p.right{
+    color: black;
+    direction: rtl;
+}
+p.wordspacing{
+    color: black;
+    word-spacing: 6px;
+}
